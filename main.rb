@@ -6,11 +6,19 @@
 # require brings in file 
 # include is application level and brings in methods
 # require_relative compliments require allowing you to load a file relative to the calling file
-require_relative 'game'
-require_relative 'player'
-require_relative 'question'
+require './game'
+require './player'
+require './question'
 
 # if game.is_running = true
 #   do all the game stuff
+
+
+new_game = Game.new('Player One', 'Player Two', 3)
+# player_one = Player.new('Player One', 3)
+# player_two = Player.new('Player Two', 3)
+
+new_game.start_game
+
 
 
