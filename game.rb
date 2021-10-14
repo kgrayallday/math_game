@@ -4,8 +4,6 @@ class Game
   def initialize
     is_running = true;
     player_1_turn = true;
-    
-    
   
   end
 

@@ -10,5 +10,7 @@ require_relative 'game'
 require_relative 'player'
 require_relative 'question'
 
+# if game.is_running = true
+#   do all the game stuff
 
 
